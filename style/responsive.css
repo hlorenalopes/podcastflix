@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-podcast .container {
+    width: 50%;
+  }
+
+  .button {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 0.5rem;
+  }
+
+  .button i {
+    margin-right: 8px;
+  }
+
+  .main-podcast {
+    height: 300px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 0.5rem;
+  }
+}

@@ -69,7 +69,7 @@ header nav a:hover {
 }
 
 .main-podcast .container {
-  width: 50%;
+  width: 40%;
 }
 
 .main-podcast .description {
@@ -108,4 +108,8 @@ header nav a:hover {
   height: 30%;
   width: 30%;
   display: block;
+}
+
+.carousel-podcasts {
+  margin-top: 10px;
 }
