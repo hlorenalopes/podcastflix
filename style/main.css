@@ -50,10 +50,10 @@ header nav a:hover {
 
 .main-podcast {
   font-size: 1rem;
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1) 100%),
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3) 100%),
     url('/img/cover2.jpg');
 
-  height: 400px;
+  height: 600px;
   background-size: cover;
 
   display: flex;
@@ -68,10 +68,13 @@ header nav a:hover {
   text-transform: uppercase;
 }
 
+.main-podcast .container {
+  width: 50%;
+}
+
 .main-podcast .description {
   margin-top: 10px;
   margin-bottom: 40px;
-  width: 40%;
 }
 
 .button {
@@ -95,4 +98,14 @@ header nav a:hover {
 
 .button i {
   margin-right: 15px;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.box-podcast {
+  height: 30%;
+  width: 30%;
+  display: block;
 }
